@@ -1,0 +1,9 @@
+{
+  "source_archive": "Author-executed ten-region colocalization assessment",
+  "source_sha256": "f5ccd8d4d2366d8d1a37dede99073e44b4b4788139a431abcffe2423401ceb28",
+  "baseline_paper_sha256": "01cde793004f47a6664bfb891dc28d10bdbda56354e6f729a29d89df4d313378",
+  "baseline_code_sha256": "da2de89458c8e0566f7602ff028fcff30e44e90be4ee8f5e3facbcf2affd2773",
+  "release": "2026.10.20",
+  "review": "Ten dense regions; CD101 has no PTSD credible set; SIRPA protein nonconvergence is recorded.",
+  "path_handling": "Public copied review logs use PROJECT_ROOT, WORKSPACE_ROOT and USER_HOME tokens; numerical results and input checksums are unchanged. Executed script source files are retained verbatim under provenance/executed_scripts."
+}

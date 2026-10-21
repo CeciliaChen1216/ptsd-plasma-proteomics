@@ -1,0 +1,1 @@
+These tables are superseded by the uniform dense-region results in results_snapshot/coloc_full_region_20261020. Do not use them for current manuscript claims. Earlier multi-instrument MR and MVMR estimates still use their originally recorded instrument sets.

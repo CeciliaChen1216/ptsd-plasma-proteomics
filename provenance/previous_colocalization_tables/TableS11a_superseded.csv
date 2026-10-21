@@ -1,0 +1,13 @@
+,Table S11a. SuSiE colocalization summary with explicit analysis provenance.,,,,,,,,
+,Protein,Protein signal lead,PTSD signal lead,PP(H3),PP(H4),Interpretation,p12,Number of SNPs,Analysis provenance
+,AKT3,rs12048930,rs112646892,0.005,0.8665,Colocalized,5e-06,25,Candidate-window SNP set; original SNP set
+,CGREF1,rs2304682,rs11904656,0.0242,0.9047,Colocalized (shared chr2 signal with KHK),5e-06,32,Candidate-window SNP set; original SNP set
+,FES,rs1894401,rs1894401,0.0041557669407001,0.995836893481994,Shared signal; prior-sensitive,1e-05,2516,Expanded ±500-kb regional set; NTOT; maximum PP.H4 pair
+,FURIN,rs6227,rs1894401,0.98896841230492,0.0096218264372898,No strong shared-signal support,1e-05,2517,Expanded ±500-kb regional set; NTOT; maximum PP.H4 pair
+,SIRPA,NA,NA,NA,NA,Not assessable (no fine-mappable PTSD signal; regional min P=4.2e-3),5e-06,53,Candidate-window SNP set; original SNP set
+,KHK,rs2304682,rs11904656,0.0242,0.9047,Colocalized (shared chr2 signal with CGREF1),5e-06,32,Candidate-window SNP set; original SNP set
+,UBE2L6,rs731384,rs11229148,0.9993,0.0007,Distinct signals (no colocalization; PP.H3>0.99),5e-06,41,Candidate-window SNP set; original SNP set
+,CD40,NA,NA,NA,NA,Not assessable (no fine-mappable PTSD signal; regional min P=5.3e-3),5e-06,41,Candidate-window SNP set; original SNP set
+,SNX18,NA,NA,NA,NA,Not assessable (no fine-mappable PTSD signal; regional min P=5.1e-4),5e-06,74,Candidate-window SNP set; original SNP set
+,CD101,NA,NA,NA,NA,Not assessable (no fine-mappable PTSD signal; regional min P=2.2e-3),5e-06,34,Candidate-window SNP set; original SNP set
+,"Note: FES and FURIN were evaluated using dense ±500-kb regional sets (2,516/2,517 variants; reference p12 = 1e-5), showing the maximum-PP.H4 signal pair under the NTOT setting. The other eight proteins were evaluated using candidate-window SNP sets (p12 = 5e-6). A missing credible set is not evidence against colocalization. All FES/FURIN signal pairs, both N settings and seven priors are in S11c. ABF sensitivity is in S11b.",,,,,,,,

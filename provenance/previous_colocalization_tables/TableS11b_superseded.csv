@@ -1,0 +1,14 @@
+,Table S11b. Colocalization prior-sensitivity analysis (coloc.abf) across seven p12 specifications.,,,,,,,,,,,,
+,Protein,Number of SNPs,PP(H4) (p12 = 1 × 10⁻⁷),PP(H4) (p12 = 5 × 10⁻⁷),PP(H4) (p12 = 1 × 10⁻⁶),PP(H4) (p12 = 5 × 10⁻⁶),PP(H4) (p12 = 1 × 10⁻⁵),PP(H4) (p12 = 5 × 10⁻⁵),PP(H4) (p12 = 1 × 10⁻⁴),Minimum PP(H4),Maximum PP(H4),PP(H4) range,Prior-sensitivity interpretation
+,AKT3,25,0.022,0.099,0.181,0.525,0.688,0.917,0.957,0.022,0.957,0.935,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,CD40,41,0.001,0.006,0.011,0.053,0.101,0.36,0.529,0.001,0.529,0.528,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,CGREF1,32,0.033,0.147,0.257,0.633,0.776,0.945,0.972,0.033,0.972,0.938,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,FES,2516,0.644044134421749,0.900464682929645,0.947625800171706,0.989067077583671,0.994503492345968,0.998895843264429,0.999447616673322,0.644044134421749,0.999447616673322,0.355403482251573,Expanded regional set; prior-sensitive
+,FURIN,2517,0.0001440403979332,0.0007197872758835,0.00143853910962,0.0071515444426007,0.0142015260405698,0.0671907835535613,0.125920846748371,0.0001440403979332,0.125920846748371,0.125776806350438,No strong shared-signal support across grid
+,SIRPA,53,0,0,0.001,0.003,0.006,0.031,0.061,0,0.061,0.061,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,CD101,34,0,0,0.001,0.003,0.006,0.03,0.058,0,0.058,0.058,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,KHK,32,0.033,0.147,0.257,0.633,0.776,0.945,0.972,0.033,0.972,0.938,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,SNX18,74,0.014,0.065,0.122,0.41,0.582,0.874,0.933,0.014,0.933,0.919,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,UBE2L6,41,0,0,0,0,0.001,0.004,0.009,0,0.009,0.009,Prior-sensitive (PP.H4<0.5 under conservative priors)
+,"Note: Single-causal-variant ABF sensitivity with p1 = p2 = 1e-4 and seven p12 values. FES and FURIN use the ±500-kb regional SNP sets, whereas the other eight proteins use candidate-window SNP sets. FES PP.H4 ranges from 0.6440 to 0.9994; FURIN ranges from 0.000144 to 0.1259. ABF and SuSiE rely on different signal assumptions. See S11c for all updated SuSiE signal-pair results.",,,,,,,,,,,,
+,,,,,,,,,,,,,
