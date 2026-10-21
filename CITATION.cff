@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software release and the associated manuscript; add the actual version-specific archive DOI after publication."
+title: "Plasma proteins associated with post-traumatic stress disorder and shared internalizing liability: analysis code"
+type: software
+version: "2026.10.20"
+date-released: "2026-10-20"
+authors:
+  - family-names: Zhang
+    given-names: Junhuai
+  - family-names: Hou
+    given-names: Xiaofeng
+  - family-names: Zheng
+    given-names: Xiaoyu
+  - family-names: Chen
+    given-names: Yaxi
+repository-code: "https://github.com/CeciliaChen1216/ptsd-proteome-mr-current"

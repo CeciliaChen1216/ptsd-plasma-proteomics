@@ -1,0 +1,4 @@
+Current release 2026.10.20.1
+
+Read README.md. Source 00_START.R, then run ptsd_validate(), ptsd_summary(), and ptsd_reports(figure2=TRUE).
+Loading and reports do not rerun GWAS, MR or SEM. Current common-factor results: 1162 proteins, 51 primary MR-FDR hits, 87 nominal Q_SNP tests, no Q_SNP-FDR hits.

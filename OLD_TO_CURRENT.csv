@@ -1,0 +1,20 @@
+old_script,current_entry,scope_and_limit
+04_coloc_multiMR.R,"ptsd_run(""coloc"")",Uniform full-region colocalization for all 10; earlier multi-MR/MVMR remain historical
+07_mediation_network_MR.R,"ptsd_run(""mediation"") and ptsd_run(""network"")",Separate indirect-effect and six-pair exploratory network analyses
+07b_recompute_network_MR.R,"ptsd_run(""network"")",Use six-pair revised analysis; no BH-significant pair
+25_genomicsem_stage0_feasibility.R,"ptsd_run(""sem"") / ptsd_run(""sem_neff"")","Baseline primary / source-NEFF LDSC preparation; then ptsd_run(""sem_expand"") for current expanded SNP results"
+26_genomicsem_stage0b_modelfix.R,"ptsd_run(""sem"") / ptsd_run(""sem_neff"")",Combined clean constrained-model workflows
+27_genomicsem_stage1_commonfactorGWAS.R,"ptsd_run(""sem"") / ptsd_run(""sem_neff"")",Combined clean workflows; full allele-pair matching
+28_genomicsem_stage12_factorMR.R,"ptsd_run(""sem"") / ptsd_run(""sem_neff"")",Baseline LDSC only; current tests require sem_expand: 1162 proteins
+17_conditional_chr15_COJO.R,"ptsd_run(""cojo"")",PTSD-only 503-reference rerun; old trauma conditional results not revalidated; superseded file omitted from public export
+21_append_conditional_chr15_table.R,ptsd_reports(): TableS22_current.csv,Old appender must not restore superseded PTSD/trauma or conditional protein ratios; superseded file omitted from public export
+20_generate_supplementary_tables.R,Current workbook delivered separately; ptsd_reports() exports selected current components,Historical whole-workbook generator not updated/revalidated; superseded file omitted from public export
+09_figures_CLEAN_updated.R,"ptsd_reports(figure2=TRUE,figure3=TRUE); see MANUSCRIPT_MAP.csv",Current Figure 3 isolated from old combined plot script; obsolete network/evidence plots not executed
+make_figure2_SEM.R,ptsd_reports(figure2=TRUE),"Recorded primary model, not NEFF sensitivity"
+PTSD_fix_figures_20261009.R,Already incorporated into reports/,Do not run the old installer against this folder
+PTSD_SEM_COJO_followup_20261016.R,"ptsd_run(""sem_neff"") / ptsd_run(""cojo"")",Oct17 sample_id + force-intersect revision included
+PTSD_source_check_20261016.R,ptsd_source_audit(),"Optional source audit, not a GWAS analysis"
+12_power_aware_classification.R,Retired from current conclusions,Do not restore old disease-specificity conclusions
+PTSD_NEFF_source_audit_20261017.R,ptsd_neff_audit(),Full-file diagnostic; not required again to use the frozen audit tables
+S24c manual table assembly,ptsd_neff_tables(),Reproducible 63-cohort / 67-pattern table assembly from small audit outputs
+SuppFig2_evidence_matrix_STANDALONE.R,ptsd_reports(suppfig2=TRUE),Historical classification is superseded; use the current renderer and frozen review tables

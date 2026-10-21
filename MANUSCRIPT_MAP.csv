@@ -1,0 +1,16 @@
+manuscript_item,source,current_scope,limit
+Main PTSD/MDD/anxiety screens; S3a-S3c,retained_modules/01_MR_screening_LOGGED.R,Historical analysis source; frozen complete numeric tables supplied,Not newly rerun
+Figure 1,docs/FIGURE_NOTES.md,Author-created workflow artwork; exact current text provided,"Manual layout, not an R-generated figure"
+Figure 2; S24-S26,scripts/PTSD_SEM_expand_instruments.R; reports/make_figure2_current.R,"Expanded instrument reference: 1162 proteins, 1152 SNPs; recorded primary LDSC model unchanged",Source-NEFF sensitivity is separate
+Figure 3,reports/make_figure3_current.R,Frozen full S3a/S3b/S3c values; source-scale unit labels,Plot-only optional export
+Figure 4; S14,reports/make_figure4_current.R; results_snapshot/sensitivity_review_20261019/eqtl_smr_direction.csv,"Signed transcript-SMR heatmap; effect signs, plasma comparator and discordance labels",Plot only; qualification is distinct from concordance
+Figure 5; S20-S21,retained_modules/22_figure5.R,KHK cross-tissue and childhood-maltreatment secondary-phenotype comparisons,"Use secondary-phenotype wording, not definitive negative control"
+S11a-S11d; Figures S2/S9,scripts/PTSD_coloc_full_region_rerun.R; reports/make_reviewed_reports.R,"All 10 dense regional results, fit QC and prior grids",All 10 dense regional sets; raw statuses and every prior/pair retained
+S22,scripts/PTSD_SEM_COJO_followup_20261016.R,PTSD-only conditional SNP log OR; 503-person LD reference,Not conditional protein MR
+S24b; S26b,scripts/PTSD_SEM_expand_instruments.R; results_snapshot/sem_expansion_20261019/NEFF/,"Expanded source-NEFF sensitivity: 50 MR-FDR associations, 85 nominal Q_SNP, no Q_SNP-FDR",Recorded primary SEM not replaced
+S24c,scripts/PTSD_NEFF_source_audit_20261017.R; scripts/PTSD_NEFF_count_patterns.R,"Full-file audit, followed by small-file count-pattern reconstruction",Separate diagnostic evidence; no unique global N
+S28-S29; Figure S6,scripts/PTSD_CRP_cis_MR_rerun_v2.R; scripts/PTSD_CRP_mediation_rerun_v2.R,Two CRP windows; nine evaluable indirect effects,FURIN not evaluable; no established mediation
+S30; Figure S10,scripts/PTSD_network_MR_rerun_v2.R; reports/make_reviewed_reports.R,Six exploratory pairs; none passes BH correction,No established directed network
+Supplementary Figure S2,reports/make_suppfig2_current.R; results_snapshot/sensitivity_review_20261019/evidence_matrix.csv,Reviewed reverse-MR and direction-aware classifications; tested SIRPA/CD101,Separate evidence domains; not a composite score
+Other tissue/annotation/consistency analyses,retained_modules/,"Retained manuscript supporting sources, with scope labels",Not all external inputs included or modules newly validated
+S1; S8; S14,results_snapshot/current_manuscript_components/; checks/check_sensitivity_labels.R,Updated annotations; original association values retained,Reverse P values unadjusted; opposite transcript effects do not establish a mechanism

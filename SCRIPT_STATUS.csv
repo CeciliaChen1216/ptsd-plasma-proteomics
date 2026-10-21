@@ -1,0 +1,37 @@
+scope,module,script,entry,status_and_scope
+current,sem,scripts/PTSD_GenomicSEM_clean_rerun.R,"ptsd_run(""sem"")",Recorded primary LDSC/baseline preparation; follow with sem_expand for current 1162-protein results
+current,sem_neff,scripts/PTSD_SEM_COJO_followup_20261016.R,"ptsd_run(""sem_neff"")",Source-NEFF LDSC/baseline preparation; follow with sem_expand
+current,cojo,scripts/PTSD_SEM_COJO_followup_20261016.R,"ptsd_run(""cojo"")","PTSD-only COJO; successful Oct17 run reviewed, small LD reference"
+current,crp,scripts/PTSD_CRP_cis_MR_rerun_v2.R,"ptsd_run(""crp"")",Tiny-P handling fixed; successfully executed original core
+current,coloc,scripts/PTSD_coloc_full_region_rerun.R,"ptsd_run(""coloc"")",Ten dense +/-500-kb regions; CD101 no PTSD CS; SIRPA nonconvergence retained
+current,mediation,scripts/PTSD_CRP_mediation_rerun_v2.R,"ptsd_run(""mediation"")",Nine evaluable proteins; FURIN unavailable
+current,network,scripts/PTSD_network_MR_rerun_v2.R,"ptsd_run(""network"")",Six exploratory pairs; no BH-significant association
+historical,01_MR_screening_LOGGED,retained_modules/01_MR_screening_LOGGED.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,02_drug_repurposing,retained_modules/02_drug_repurposing.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,03_deep_analyses,retained_modules/03_deep_analyses.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,05_sensitivity_analyses,retained_modules/05_sensitivity_analyses.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,05b_forward_multiIV_MR,retained_modules/05b_forward_multiIV_MR.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,06_biological_annotation,retained_modules/06_biological_annotation.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,08_eQTL_SMR,retained_modules/08_eQTL_SMR.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,08_eQTL_SMR_FDR,retained_modules/08_eQTL_SMR_FDR.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,08b_add_smr_fdr,retained_modules/08b_add_smr_fdr.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,11_cross_platform_pqtl_concordance,retained_modules/11_cross_platform_pqtl_concordance.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,13_CD40_target_safety,retained_modules/13_CD40_target_safety.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,14_observational_validation,retained_modules/14_observational_validation.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,15_Figure3_celltype,retained_modules/15_Figure3_celltype.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,16_celltype_brainregion_enrichment,retained_modules/16_celltype_brainregion_enrichment.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,18_trauma_negative_control_MR,retained_modules/18_trauma_negative_control_MR.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,18b_finalize_trauma_negative_control,retained_modules/18b_finalize_trauma_negative_control.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,19_brain_pqtl_cross_tissue_support_wingo2025,retained_modules/19_brain_pqtl_cross_tissue_support_wingo2025.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,22_figure5,retained_modules/22_figure5.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,24_phewas_classify_supp,retained_modules/24_phewas_classify_supp.R,Reference only; not launched by 00_START.R,Not newly revalidated; see OLD_TO_CURRENT.csv
+historical,SuppFig2_evidence_matrix_STANDALONE,retained_modules/SuppFig2_evidence_matrix_STANDALONE.R,Reference only; not launched by 00_START.R,Superseded classifications retained for provenance; execution stops and points to current suppfig2 renderer
+audit,source_check,scripts/PTSD_source_check_20261016.R,ptsd_source_audit(),Original read-only source/metadata check; optional
+audit,neff_source_audit,scripts/PTSD_NEFF_source_audit_20261017.R,ptsd_neff_audit(),"Full-file audit already executed by author; calculations retained, auto-run guarded"
+report,neff_tables,scripts/PTSD_NEFF_count_patterns.R,ptsd_neff_tables(),Base-R reconstruction of S24c from small frozen audit outputs; runtime-tested against workbook
+report,figure3,reports/make_figure3_current.R,ptsd_reports(figure3=TRUE),"Plot-only; frozen complete S3a/S3b/S3c MR values, source-scale labels; no MR rerun"
+current,sem_expand,scripts/PTSD_SEM_expand_instruments.R,"ptsd_run(""sem_expand"")",Reviewed expansion: 1162 proteins/1152 SNPs; pinned historical baseline checks; explicit resume only
+report,figure2,reports/make_figure2_current.R,ptsd_reports(figure2=TRUE),Base-R expanded primary plot: 51 MR-FDR; 87 nominal Q; zero Q-FDR
+report,figure4,reports/make_figure4_current.R,ptsd_reports(figure4=TRUE),Base-R signed brain/blood SMR heatmap with plasma-MR signs and discordance labels; plot only
+report,suppfig2,reports/make_suppfig2_current.R,ptsd_reports(suppfig2=TRUE),Reviewed reverse-estimator and transcript-direction labels; no association rerun
+report,coloc_plot,reports/make_coloc_reports.R,ptsd_reports(),Ten-protein prior plots and complete dense-region tables; no refitting
